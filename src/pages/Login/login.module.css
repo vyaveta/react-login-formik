@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #EEEDED;
+}
+
+.login_wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 4rem;
+    padding: 2rem 3rem 3rem;
+    border-radius: 1rem;
+    background-color: #Fff;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    max-width: 500px;
+}
+
+.login_heading{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
